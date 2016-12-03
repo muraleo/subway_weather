@@ -37,3 +37,8 @@ db.weather_temp.find().forEach(
                                        "-"+e.DATE.substr(6,2),
                                       TIME:e.DATE.substr(8,2)+
                                        ":00:00"}})});
+
+db.subway_final.find().forEach(
+    function(e){var d = e.DATE.toISOString();
+                db.subway_final.update({_id:e._id},
+                               {$set:{DATE:d.substr(0,10)}})});
