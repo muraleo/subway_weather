@@ -1,0 +1,12 @@
+The goal of this project is to find the relationship between number of subway passenger and temperature, and find the
+relationship between number of subway passenger and precipitation. In order to do this, the analysis method I use in 
+this project is to calculate the correlation coefficient between every factor pairs. If the correlation coefficient is
+near 1, it means the two factors have positive correlation. If the correlation coefficient is near -1, it means the two 
+factors have negative correlation. If it near 0 means that the two factors has no correlation.
+
+So there is the result, the correlation coefficient of passenger number and temperature is -0.5369738, which means that
+passenger number and temperature have some negetive correlation, not so strong, but have negative correlation. It indicate
+that when temperature goes high, there are less pessenger of subway, we can find that in virtualization. When temperature
+goes low, more passengers choose to take subway.
+
+The correlation coefficient of passenger number and precipitation is -0.01301567, which means that passenger number and precipitation have no correlation. It means that people will choose subway no matter rains or not.
